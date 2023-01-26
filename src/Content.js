@@ -58,18 +58,18 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
+    title: "Web and Andriod App Development",
+    firstName: "BIPUL",
+    LastName: "THAKUR",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
-        text: "Years of Experinse in Web development",
+        count: "9+",
+        text: "Months of Experinse in Web and Android app development",
       },
       {
-        count: "20+",
+        count: "3+",
         text: "Projects Worked in my career",
       },
     ],
@@ -80,32 +80,32 @@ export const content = {
     skills_content: [
       {
         name: "Figma",
-        para: "Lorem ipsum text  dummy",
+        para: "Atractive Mobile and Web design",
         logo: figma,
       },
       {
         name: "Node js",
-        para: "Lorem ipsum text  dummy",
+        para: "Backend server with best practice",
         logo: nodejs,
       },
       {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
+        name: "Java Core",
+        para: "Java which runs on 3 billion devices",
         logo: ps,
       },
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "Frontend Web Development ",
         logo: reactjs,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
+        name: "Spring boot",
+        para: "For Fast and Secure Backend",
         logo: sketch,
       },
       {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
+        name: "Flutter",
+        para: "Fast and Atractive Android Development",
         logo: python,
       },
     ],
