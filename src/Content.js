@@ -58,7 +58,7 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web and Andriod App Development",
+    title: "Web and Andriod App Developer",
     firstName: "BIPUL",
     LastName: "THAKUR",
     btnText: "Hire Me",
