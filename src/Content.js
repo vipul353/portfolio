@@ -192,15 +192,15 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "Human Resource Management Website",
         image: project1,
       },
       {
-        title: "Social Media web",
+        title: "Project Management web",
         image: project2,
       },
       {
-        title: "Creative Website",
+        title: "POT  Android App",
         image: project3,
       },
     ],
@@ -211,19 +211,19 @@ export const content = {
     testimonials_content: [
       {
         review:
-          "“I highly recommend Bipul for their exceptional skills in creating high-performance mobile apps using Flutter and Dart. They demonstrated excellent problem solving skills and ability to work efficiently. Bipul was a valuable team member with strong communication skills.”",
+          "“I highly recommend Bipul for their exceptional skills in creating high-performance mobile apps using Flutter and Dart. They demonstrated excellent problem solving skills and ability to work efficiently.”",
         img: avatar1,
         name: "Vishal Raina",
       },
       {
         review:
-          "“I had the pleasure of working with Bipul, and I can confidently say that they are a top-tier developer. Their skills in using Flutter and Dart to create high-performance mobile applications were remarkable. They have a great problem solving ability and work efficiently. ”",
+          "“I had the pleasure of working with Bipul, and I can confidently say that He have a great problem solving ability and work efficiently.. His skills in using Flutter and Dart to create high-performance mobile applications were remarkable.”",
         img: avatar2,
         name: "Simran",
       },
       {
         review:
-          "“I highly recommend Bipul for their exceptional skills in creating full-featured web applications. They are proficient in various programming languages and frameworks, delivering high quality solutions. They were a valuable team member and a great asset for any project requiring a talented Full Stack developer”",
+          "“I highly recommend Bipul for their exceptional skills in creating full-featured web applications. He is proficient in various programming languages and frameworks, delivering high quality solutions.”",
         img: avatar3,
         name: "Revanth",
       },

@@ -1,9 +1,16 @@
 // import content
+// import { useNavigate } from 'react-router';
 import { useEffect } from "react";
 import { content } from "../Content";
+import resume from "../assets/images/Hero/resume.pdf";
 const Hero = () => {
   const { hero } = content;
+  // const Navigate = useNavigate()
 
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+  }
   return (
     <section id="home" className="overflow-hidden">
       <div className="min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center">
@@ -23,9 +30,14 @@ const Hero = () => {
           <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-between w-auto">
-            
-          <button className="btn">Download Resume</button>
-            <button className="btn">{hero.btnText}</button>
+          <a href={resume} className="btn">
+          Download Resume
+            </a>
+            <a href="//linkedin.com/in/bipul-thakur-ab644a197" className="btn" target="_blank">Hire Me</a>
+            {/* <Link className="btn">Download Resume</Link> */}
+            {/* <button  className="btn" onClick={()=>{Navigate('')}}></button> */}
+            {/* <button className="btn">{hero.btnText}</button> */}
+           
           </div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (
