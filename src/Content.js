@@ -82,31 +82,85 @@ export const content = {
         name: "Figma",
         para: "Atractive Mobile and Web design",
         logo: figma,
+        Description:[
+          "Work along with UX Designer to conceptualize and creating work on wireframes",
+          "Create high-fi mock-ups and clickable prototypes for presentation and testing",
+          "Have knowledge of designing for accessibility and multi-languages",
+          "Communicate design deliverables and prototypes to developers",
+          " Review developed screens as per designs and closure of defects",
+          "Establish, follow and promote design guidelines, best practices and standards.",
+          "Ability to iterate your designs and solutions efficiently and intelligently."
+        ]
       },
       {
         name: "Node js",
         para: "Backend server with best practice",
         logo: nodejs,
+        Description:[
+          "Maintain code quality and ensure the responsiveness of the application",
+          " Understanding of Node.js Frameworks",
+          "Knowledge of Front-end Development",
+          "Skill-set in Regard to API Communications",
+          "Database Management for Business",
+          "Efficiency in Handling Timelines.",
+          "Testing and Error Handling Abilities"
+        ]
       },
       {
         name: "Java Core",
         para: "Java which runs on 3 billion devices",
         logo: ps,
+        Description:[
+          "Basic of java",
+          "Oops Concept",
+          "Exception Handling",
+          "Collection framwork",
+          "Multi threading",
+          "J2EE(JDBC,JSp,Servlet)",
+          "Java Framework(Hibernate,Spring)"
+        ]
       },
       {
         name: "React js",
         para: "Frontend Web Development ",
         logo: reactjs,
+        Description:[
+          "HTML + CSS",
+          "JSX",
+          "JavaScript Fundamentals + ES6",
+          "Git",
+          "Node + npm",
+          "Redux",
+          "Best practices for react js like function component, reusable code and many more..."
+        ]
       },
       {
         name: "Spring boot",
         para: "For Fast and Secure Backend",
         logo: sketch,
+        Description:[
+          " Hands on experience in Java back-end development and skills with Spring-boot framework",
+          "Familiar with Microservices design",
+          "Profound Knowledge about APIs",
+          "Experience in Microservices",
+          "Knowledge about Multiple frameworks under Spring Boot",
+          "J2EE(JDBC,JSp,Servlet)",
+          "Java Framework(Hibernate,Spring)"
+        ]
       },
       {
         name: "Flutter",
         para: "Fast and Atractive Android Development",
         logo: python,
+        Description:[
+          "Good Knowledge or Experience in Dart",
+          "Knowledge of Agile and Waterfall methodologies for software development",
+          "Good Knowledge of Git",
+          "Write a clean-code using Dart",
+          "Optimize the development process using feedback and brainstorm",
+          "Readable Code Matters for Flutter and reusable code",
+      
+        ]
       },
     ],
     icon: MdArrowForward,
@@ -117,17 +171,17 @@ export const content = {
     service_content: [
       {
         title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "I am a highly skilled full-stack developer with experience in multiple programming languages and frameworks. I am proficient in both front-end and back-end development, and have a strong understanding of web development concepts and best practices. I am comfortable working with databases, web servers, and version control systems. I am able to work independently and as part of a team to deliver high-quality software solutions on time and on budget.",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "ui DESIGNING",
+        para: "I am a UI developer with experience in creating user-friendly interfaces for web and mobile applications. I have expertise in design tools like figma, front-end technologies like react js and flutter, and UI design principles. I am skilled in converting design mockups into functional web pages and keep up to date with the latest design trends and web accessibility standards. I am able to work in Agile development environments and collaborate with other stakeholders to deliver high-quality products.",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Android App Development",
+        para: "I am a Flutter developer with experience in building mobile applications for Android. I am skilled in using Flutter framework, Dart programming language and have experience in developing mobile apps with beautiful, fast and high-performance user interface. I am familiar with Flutter widgets, development tools and have experience in integrating with APIs, and working with different databases. I am also able to work in an Agile development environment and collaborate with other stakeholders to deliver high-quality products.",
         logo: services_logo3,
       },
     ],
@@ -157,28 +211,28 @@ export const content = {
     testimonials_content: [
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“I highly recommend Bipul for their exceptional skills in creating high-performance mobile apps using Flutter and Dart. They demonstrated excellent problem solving skills and ability to work efficiently. Bipul was a valuable team member with strong communication skills.”",
         img: avatar1,
-        name: "JOHN DOE",
+        name: "Vishal Raina",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“I had the pleasure of working with Bipul, and I can confidently say that they are a top-tier developer. Their skills in using Flutter and Dart to create high-performance mobile applications were remarkable. They have a great problem solving ability and work efficiently. ”",
         img: avatar2,
-        name: "Tom Alex",
+        name: "Simran",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“I highly recommend Bipul for their exceptional skills in creating full-featured web applications. They are proficient in various programming languages and frameworks, delivering high quality solutions. They were a valuable team member and a great asset for any project requiring a talented Full Stack developer”",
         img: avatar3,
-        name: "Johnny",
+        name: "Revanth",
       },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar4,
-        name: "ROBBIN",
-      },
+      // {
+      //   review:
+      //     "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+      //   img: avatar4,
+      //   name: "ROBBIN",
+      // },
     ],
   },
   Hireme: {
@@ -186,7 +240,7 @@ export const content = {
     subtitle: "FOR YOUR PROJECTS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+    para: "Expert Full Stack Developer ready to take on your next project. Proficient in JavaScript, flutter, and React. Proven track record of delivering projects on-time and within budget. Strong problem-solving skills and ability to work with a team. See my work and let's work together. Contact me to discuss your project",
     btnText: "Hire Me",
   },
   Contact: {
@@ -194,20 +248,20 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "thakurbipul353@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:thakurbipul353@gmail.com.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+91 7667340560",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/7667340560",
       },
-      {
-        text: "codeaprogram",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
-      },
+      // {
+      //   text: "codeaprogram",
+      //   icon: BsInstagram,
+      //   link: "https://www.instagram.com/codeaprogram/",
+      // },
     ],
   },
   Footer: {

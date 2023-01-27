@@ -48,7 +48,16 @@ const Skills = () => {
         </div>
         <br />
         <ul className="list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7">
-          <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
+          {
+            selectSkill?.Description?.map(
+              (Des, i)=>(
+               <li key={i}
+               > {Des}</li>
+        
+              )
+            )
+          }
+          {/* <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
           <li>Lorem ipsum dolor sit, ame.</li>
           <li>Lorem ipsum dolor sit, amet consectetur</li>
           <li>
@@ -57,7 +66,7 @@ const Skills = () => {
           <li>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est
             beatae quos rem.
-          </li>
+          </li> */}
         </ul>
         <br />
         <div className="flex justify-end">
