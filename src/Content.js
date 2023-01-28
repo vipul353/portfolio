@@ -214,18 +214,21 @@ export const content = {
           "“I highly recommend Bipul for their exceptional skills in creating high-performance mobile apps using Flutter and Dart. They demonstrated excellent problem solving skills and ability to work efficiently.”",
         img: avatar1,
         name: "Vishal Raina",
+        position:"Director at Credmarg technologies Pvt. Ltd."
       },
       {
         review:
-          "“I had the pleasure of working with Bipul, and I can confidently say that He have a great problem solving ability and work efficiently.. His skills in using Flutter and Dart to create high-performance mobile applications were remarkable.”",
+          "“I had the opportunity to collaborate with Bipul on a challenging Flutter project and was thoroughly impressed with their abilities. Their dedication to delivering high-quality work and their expertise in the technology made the project a success”",
         img: avatar2,
         name: "Simran",
+        position:"Director at Credmarg technologies Pvt. Ltd."
       },
       {
         review:
           "“I highly recommend Bipul for their exceptional skills in creating full-featured web applications. He is proficient in various programming languages and frameworks, delivering high quality solutions.”",
         img: avatar3,
         name: "Revanth",
+        position:"Project manager at Arshaa technologies Pvt. Ltd."
       },
       // {
       //   review:
