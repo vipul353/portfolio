@@ -14,13 +14,15 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 
 import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
+import project6 from "./assets/images/projects/img6.png";
+import project4 from "./assets/images/projects/img4.png";
+import project5 from "./assets/images/projects/img5.png";
 import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
-import avatar4 from "./assets/images/Testimonials/avatar4.png";
+import avatar5 from "./assets/images/Testimonials/avatar5.jpg";
 
 import Hireme_person from "./assets/images/Hireme/person.png";
 import Hireme_person2 from "./assets/images/Hireme/person2.png";
@@ -65,11 +67,11 @@ export const content = {
     image: Hero_person,
     hero_content: [
       {
-        count: "9+",
+        count: "1.5+",
         text: "Months of Experinse in Web and Android app development",
       },
       {
-        count: "3+",
+        count: "6+",
         text: "Projects Worked in my career",
       },
     ],
@@ -200,9 +202,17 @@ export const content = {
         image: project2,
       },
       {
-        title: "POT  Android App",
-        image: project3,
+        title: "WelthDekho  Android App",
+        image: project5,
       },
+      {
+        title: "WelthDekho  WebSite",
+        image: project4,
+      },
+      {
+        title: "New Blog  WebSite",
+        image: project6,
+      }
     ],
   },
   Testimonials: {
@@ -229,6 +239,13 @@ export const content = {
         img: avatar3,
         name: "Revanth",
         position:"Project manager at Arshaa technologies Pvt. Ltd."
+      },
+      {
+        review:
+          "“As a skilled web and Android developer, you consistently demonstrate a deep understanding of programming languages and frameworks. Your efficient problem-solving and creative design contribute greatly to the success of our projects.”",
+        img: avatar5,
+        name: "Krishna",
+        position:"A freelancer "
       },
       // {
       //   review:
